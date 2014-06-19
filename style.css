@@ -1,0 +1,58 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Calibri;
+}
+
+li{
+	list-style: none;
+	margin: 0 0 10px;
+}
+
+#main{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #ccc;
+	margin: 100px auto 0;
+	position: relative;
+	background-color: #f9f9f9;
+}
+
+#main h1{
+	text-align: center;
+	text-transform: uppercase;
+	color: #318dea;
+}
+
+.left{
+	float: left;
+	width: 45%;
+}
+
+.right{
+	float: right;
+	width: 45%;
+}
+
+.checked{
+	color: #318dea;
+	text-decoration: line-through;
+}
+
+.unchecked{
+	color: #000;
+	text-decoration: none;
+}
+
+#progress{
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+#fill{
+	background-color: #318dea;
+	height: 100%;
+	width: 0;
+}
